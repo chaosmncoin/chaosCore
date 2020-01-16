@@ -233,7 +233,7 @@ public:
         genesis.nNonce = 610798;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000009dd1b3fecf2d6b099ec44c262e74543cef502911d74f651a8bb18cd8dcc"));
+        assert(hashGenesisBlock == uint256("0x273c5c6edb0f275dbce3ffd51d264e75343d8651761873f7c374ede3559124d7"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -303,7 +303,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 28346;
-        assert(hashGenesisBlock == uint256("0x5db6ef262072f0506838a6a6b8bf16f8d85a6fc89def0db119b2bb25a4469319"));
+        assert(hashGenesisBlock == uint256("0x358c0f7fd14e8894c3ce45afa035e772a1223390554a0e06586a1690ffe0f173"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Regtest mode doesn't have any DNS seeds.
