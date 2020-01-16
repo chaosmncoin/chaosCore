@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES ZIOS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES HAOS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Zio Coin</source>
-        <translation>Zio Coin</translation>
+        <source>Chaos Coin</source>
+        <translation>Chaos Coin</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin</source>
-        <translation>&amp;Sobre Zio Coin</translation>
+        <source>&amp;About Chaos Coin</source>
+        <translation>&amp;Sobre Chaos Coin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
-        <source>About Zio Coin Core</source>
-        <translation>Sobre Zio Coin Core</translation>
+        <source>About Chaos Coin Core</source>
+        <translation>Sobre Chaos Coin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Zio Coin Core.</source>
-        <translation>Benvingut a Zio Coin Core.</translation>
+        <source>Welcome to Chaos Coin Core.</source>
+        <translation>Benvingut a Chaos Coin Core.</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1101,8 +1101,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1253,7 +1253,7 @@
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

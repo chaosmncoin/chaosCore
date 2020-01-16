@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw ZIO adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw HAO adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw ZIO adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw HAO adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw ZIOs stelen.</translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw HAOs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW ZIO VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW HAO VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een ZIO adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een HAO adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>Het ZIO adres om het bericht met te ondertekenen</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>Het HAO adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het ZIO adres bezit</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het HAO adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>Het ZIO adres waarmee het bericht was ondertekend</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>Het HAO adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ZIO adres</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde HAO adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kern</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kern</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Verstuur munten naar een ZIO adres</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Verstuur munten naar een HAO adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en ziocoin: URI's)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en chaoscoin: URI's)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
-        <translation>&amp;Over Zio Coin Kern</translation>
+        <source>&amp;About Chaos Coin Core</source>
+        <translation>&amp;Over Chaos Coin Kern</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
-        <translation>Toon informatie over Zio Coin Kern</translation>
+        <source>Show information about Chaos Coin Core</source>
+        <translation>Toon informatie over Chaos Coin Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Zio Coin</source>
-        <translation>Wijzig Zio Coin configuratie opties</translation>
+        <source>Modify configuration options for Chaos Coin</source>
+        <translation>Wijzig Chaos Coin configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw ZIO adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw HAO adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde ZIO adressen</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde HAO adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -658,8 +658,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a ziocoin: URI or payment request</source>
-        <translation>Open een ziocoin: URI of betaalverzoek</translation>
+        <source>Open a chaoscoin: URI or payment request</source>
+        <translation>Open een chaoscoin: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Zio Coin Core client</source>
-        <translation>Zio Coin Core client</translation>
+        <source>Chaos Coin Core client</source>
+        <translation>Chaos Coin Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Zio Coin network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Zio Coin netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Zio Coin netwerk</numerusform></translation>
+        <source>%n active connection(s) to Chaos Coin network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het Chaos Coin netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Chaos Coin netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -817,8 +817,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (ziocoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (chaoscoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -1034,8 +1034,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ZIO address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig ZIO adres.</translation>
+        <source>The entered address "%1" is not a valid HAO address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig HAO adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1064,16 +1064,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kern</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Zio Coin Core</source>
-        <translation>Over Zio Coin Core</translation>
+        <source>About Chaos Coin Core</source>
+        <translation>Over Chaos Coin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1103,16 +1103,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Zio Coin Core.</source>
-        <translation>Welkom bij Zio Coin Core</translation>
+        <source>Welcome to Chaos Coin Core.</source>
+        <translation>Welkom bij Chaos Coin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard datafolder </translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kern</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kern</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1309,20 +1309,20 @@ MultiSend: %1</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Zio Coin after logging in to the system.</source>
-        <translation>Zio Coin automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start Chaos Coin after logging in to the system.</source>
+        <translation>Chaos Coin automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Zio Coin on system login</source>
-        <translation>&amp;Zio Coin starten bij systeemlogin</translation>
+        <source>&amp;Start Chaos Coin on system login</source>
+        <translation>&amp;Chaos Coin starten bij systeemlogin</translation>
     </message>
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zio Coin.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Zio Coin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chaos Coin.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Chaos Coin.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1473,8 +1473,8 @@ MultiSend: %1</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a ZIO address (e.g. %1)</source>
-        <translation>Voer een ZIO adres in (b.v. %1)</translation>
+        <source>Enter a HAO address (e.g. %1)</source>
+        <translation>Voer een HAO adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1675,8 +1675,8 @@ MultiSend: %1</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Zio Coin RPC console.</source>
-        <translation>Welkom bij de Zio Coin RPC console.</translation>
+        <source>Welcome to the Chaos Coin RPC console.</source>
+        <translation>Welkom bij de Chaos Coin RPC console.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1883,8 +1883,8 @@ MultiSend: %1</translation>
         <translation>Wijzig:</translation>
     </message>
     <message>
-        <source>0 ZIO</source>
-        <translation>0 ZIO</translation>
+        <source>0 HAO</source>
+        <translation>0 HAO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1971,8 +1971,8 @@ MultiSend: %1</translation>
         <translation>gebruikt</translation>
     </message>
     <message>
-        <source>Warning: Invalid ZIO address</source>
-        <translation>Waarschuwing: Ongeldig ZIO adres</translation>
+        <source>Warning: Invalid HAO address</source>
+        <translation>Waarschuwing: Ongeldig HAO adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2026,8 +2026,8 @@ MultiSend: %1</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The ZIO address to send the payment to</source>
-        <translation>Het ZIO adres om de betaling naar te verzenden</translation>
+        <source>The HAO address to send the payment to</source>
+        <translation>Het HAO adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2081,8 +2081,8 @@ MultiSend: %1</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Zio Coin Core is shutting down...</source>
-        <translation>Zio Coin Core is aan het afsluiten...</translation>
+        <source>Chaos Coin Core is shutting down...</source>
+        <translation>Chaos Coin Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2100,8 +2100,8 @@ MultiSend: %1</translation>
         <translation>&amp;Onderteken Bericht</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>Het ZIO adres om het bericht met te ondertekenen</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>Het HAO adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2132,16 +2132,16 @@ MultiSend: %1</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het ZIO adres bezit</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het HAO adres bezit</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>Het ZIO adres waarmee het bericht was ondertekend</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>Het HAO adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde ZIO adres</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde HAO adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2211,8 +2211,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kern</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2231,8 +2231,8 @@ MultiSend: %1</translation>
         <translation>De PIVX Core ontwikkelaars</translation>
     </message>
     <message>
-        <source>The Zio Coin Core developers</source>
-        <translation>De Zio Coin Core ontwikkelaars</translation>
+        <source>The Chaos Coin Core developers</source>
+        <translation>De Chaos Coin Core ontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2583,7 +2583,7 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>(default: %s)</source>
         <translation>(standaard: %s)</translation>
@@ -2625,8 +2625,8 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Zio Coin Core Developers</source>
-        <translation>Copyright (C) 2017-%i The Zio Coin Core Ontwikkelaars</translation>
+        <source>Copyright (C) 2017-%i The Chaos Coin Core Developers</source>
+        <translation>Copyright (C) 2017-%i The Chaos Coin Core Ontwikkelaars</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>

@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Zio Coin tests.
+Utilities to generate test vectors for the data-driven Chaos Coin tests.
 
 Usage: 
 

@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Zio Coin RPC command dispatcher.
+ * Chaos Coin RPC command dispatcher.
  */
 class CRPCTable
 {

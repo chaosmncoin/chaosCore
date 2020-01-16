@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše ZIO adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše HAO adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše ZIO adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše HAO adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše ZIOy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše HAOy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE ZIOy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE HAOy&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte ZIO adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte HAO adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>ZIO adresa pro podepsání zprávy</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>HAO adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ZIO adresu</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto HAO adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>ZIO adresa zprávy byla podpsána</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>HAO adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ZIO adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou HAO adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Odeslat platbuna ZIO adresu</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Odeslat platbuna HAO adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a ziocoin: URIs)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a chaoscoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
-        <translation>&amp;O Zio Coin Core</translation>
+        <source>&amp;About Chaos Coin Core</source>
+        <translation>&amp;O Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
-        <translation>Zobraz informace o Zio Coin Core</translation>
+        <source>Show information about Chaos Coin Core</source>
+        <translation>Zobraz informace o Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for ZIO</source>
-        <translation>Upravit možnosti konfigurace pro ZIO</translation>
+        <source>Modify configuration options for HAO</source>
+        <translation>Upravit možnosti konfigurace pro HAO</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší ZIO adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší HAO adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými ZIO adresami</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými HAO adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a ziocoin: URI or payment request</source>
-        <translation>Otevřít ziocoin: URI nebo platební žádost</translation>
+        <source>Open a chaoscoin: URI or payment request</source>
+        <translation>Otevřít chaoscoin: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the Zio Coin Core help message to get a list with possible Zio Coin command-line options</source>
-        <translation>Zobrazit Zio Coin Core pomocnou zpráv pro získání seznamu možných parametrů Zio Coin pro příkazy do příkazové řádky</translation>
+        <source>Show the Chaos Coin Core help message to get a list with possible Chaos Coin command-line options</source>
+        <translation>Zobrazit Chaos Coin Core pomocnou zpráv pro získání seznamu možných parametrů Chaos Coin pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Zio Coin Core client</source>
-        <translation>Zio Coin Core klient</translation>
+        <source>Chaos Coin Core client</source>
+        <translation>Chaos Coin Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -805,8 +805,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (ziocoin.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (chaoscoin.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ZIO address.</source>
-        <translation>Zadaná adresa "%1" není validní ZIO adresa.</translation>
+        <source>The entered address "%1" is not a valid HAO address.</source>
+        <translation>Zadaná adresa "%1" není validní HAO adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1108,12 +1108,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
-        <source>About Zio Coin Core</source>
-        <translation>O Zio Coin Core</translation>
+        <source>About Chaos Coin Core</source>
+        <translation>O Chaos Coin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1147,16 +1147,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Zio Coin Core.</source>
-        <translation>Vítejte v Zio Coin Core.</translation>
+        <source>Welcome to Chaos Coin Core.</source>
+        <translation>Vítejte v Chaos Coin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Zio Coin Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Zio Coin Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Chaos Coin Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Chaos Coin Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>Zio Coin Core will download and store a copy of the Zio Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Zio Coin Core stáhne a uloží kopii Zio Coin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>Chaos Coin Core will download and store a copy of the Chaos Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Chaos Coin Core stáhne a uloží kopii Chaos Coin blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1167,8 +1167,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1469,12 +1469,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Zio Coin after logging in to the system.</source>
-        <translation>Automaticky spustit Zio Coin po přihlášení do systému</translation>
+        <source>Automatically start Chaos Coin after logging in to the system.</source>
+        <translation>Automaticky spustit Chaos Coin po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Zio Coin on system login</source>
-        <translation>&amp;Spusti Zio Coin při přihlášení do systému</translation>
+        <source>&amp;Start Chaos Coin on system login</source>
+        <translation>&amp;Spusti Chaos Coin při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -1931,8 +1931,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 ZIO</source>
-        <translation>0 ZIO</translation>
+        <source>0 HAO</source>
+        <translation>0 HAO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2060,8 +2060,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>ZIO adresa pro podepsání zprávy</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>HAO adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2088,16 +2088,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto ZIO adresu</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto HAO adresu</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>ZIO adresa zprávy byla podpsána</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>HAO adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou ZIO adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou HAO adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2139,8 +2139,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     </context>
 <context>
@@ -2243,7 +2243,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

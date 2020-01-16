@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  ziocoind The Zio Coin core server.
+#  chaoscoind The Chaos Coin core server.
 #
 #
 # chkconfig: 345 80 20
-# description: ziocoind
-# processname: ziocoind
+# description: chaoscoind
+# processname: chaoscoind
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/ziocoind, see below
-if [ -f /etc/sysconfig/ziocoind ]; then
-        . /etc/sysconfig/ziocoind
+# you can override defaults in /etc/sysconfig/chaoscoind, see below
+if [ -f /etc/sysconfig/chaoscoind ]; then
+        . /etc/sysconfig/chaoscoind
 fi
 
 RETVAL=0
 
-prog=ziocoind
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/ziocoind
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/ziocoind}
+prog=chaoscoind
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/chaoscoind
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/chaoscoind}
 
-# ziocoind defaults to /usr/bin/ziocoind, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/ziocoind}
+# chaoscoind defaults to /usr/bin/chaoscoind, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/chaoscoind}
 
-# ziocoind opts default to -disablewallet, override with BITCOIND_OPTS
+# chaoscoind opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

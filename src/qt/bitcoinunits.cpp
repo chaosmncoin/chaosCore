@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2017 The Zio Coin developers
+// Copyright (c) 2017-2017 The Chaos Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(ZIO);
-    unitlist.append(mZIO);
-    unitlist.append(uZIO);
+    unitlist.append(HAO);
+    unitlist.append(mHAO);
+    unitlist.append(uHAO);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case ZIO:
-    case mZIO:
-    case uZIO:
+    case HAO:
+    case mHAO:
+    case uHAO:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case ZIO:
-        return QString("zio");
-    case mZIO:
-        return QString("mzio");
-    case uZIO:
-        return QString::fromUtf8("uzio");
+    case HAO:
+        return QString("hao");
+    case mHAO:
+        return QString("mhao");
+    case uHAO:
+        return QString::fromUtf8("uhao");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case ZIO:
-            return QString("ZIO");
-        case mZIO:
-            return QString("mZIO");
-        case uZIO:
-            return QString::fromUtf8("μZIO");
+        case HAO:
+            return QString("HAO");
+        case mHAO:
+            return QString("mHAO");
+        case uHAO:
+            return QString::fromUtf8("μHAO");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case ZIO:
-            return QString("tZIO");
-        case mZIO:
-            return QString("tmZIO");
-        case uZIO:
-            return QString::fromUtf8("tμZIO");
+        case HAO:
+            return QString("tHAO");
+        case mHAO:
+            return QString("tmHAO");
+        case uHAO:
+            return QString::fromUtf8("tμHAO");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case ZIO:
-            return QString("ZIO");
-        case mZIO:
-            return QString("Milli-ZIO (1 / 1" THIN_SP_UTF8 "000)");
-        case uZIO:
-            return QString("Micro-ZIO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case HAO:
+            return QString("HAO");
+        case mHAO:
+            return QString("Milli-HAO (1 / 1" THIN_SP_UTF8 "000)");
+        case uHAO:
+            return QString("Micro-HAO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case ZIO:
-            return QString("TestZIOs");
-        case mZIO:
-            return QString("Milli-TestZIO (1 / 1" THIN_SP_UTF8 "000)");
-        case uZIO:
-            return QString("Micro-TestZIO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case HAO:
+            return QString("TestHAOs");
+        case mHAO:
+            return QString("Milli-TestHAO (1 / 1" THIN_SP_UTF8 "000)");
+        case uHAO:
+            return QString("Micro-TestHAO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case ZIO:
+    case HAO:
         return 100000000;
-    case mZIO:
+    case mHAO:
         return 100000;
-    case uZIO:
+    case uHAO:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case ZIO:
+    case HAO:
         return 8;
-    case mZIO:
+    case mHAO:
         return 5;
-    case uZIO:
+    case uHAO:
         return 2;
     default:
         return 0;

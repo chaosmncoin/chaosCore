@@ -76,7 +76,7 @@ HEADERS += src/activemasternode.h \
            src/compressor.h \
            src/core_io.h \
            src/crypter.h \
-           src/ziocoin-config.h \
+           src/chaoscoin-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/ziocoin-config.h \
+           src/config/chaoscoin-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -331,7 +331,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/ziocoin.moc \
+           src/qt/chaoscoin.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -369,9 +369,9 @@ SOURCES += src/activemasternode.cpp \
            src/core_read.cpp \
            src/core_write.cpp \
            src/crypter.cpp \
-           src/ziocoin-cli.cpp \
-           src/ziocoin-tx.cpp \
-           src/ziocoin.cpp \
+           src/chaoscoin-cli.cpp \
+           src/chaoscoin-tx.cpp \
+           src/chaoscoin.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -468,8 +468,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroldialog.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
-           src/qt/ziocoin.cpp \
-           src/qt/ziocoinstrings.cpp \
+           src/qt/chaoscoin.cpp \
+           src/qt/chaoscoinstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -546,7 +546,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_ziocoin.cpp \
+           src/test/test_chaoscoin.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -637,21 +637,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/ziocoin.qrc src/qt/ziocoin_locale.qrc
+RESOURCES += src/qt/chaoscoin.qrc src/qt/chaoscoin_locale.qrc
 
-TRANSLATIONS += src/qt/locale/ziocoin_bg.ts \
-                src/qt/locale/ziocoin_de.ts \
-                src/qt/locale/ziocoin_en.ts \
-                src/qt/locale/ziocoin_es.ts \
-                src/qt/locale/ziocoin_fi.ts \
-                src/qt/locale/ziocoin_fr.ts \
-                src/qt/locale/ziocoin_it.ts \
-                src/qt/locale/ziocoin_ja.ts \
-                src/qt/locale/ziocoin_pl.ts \
-                src/qt/locale/ziocoin_pt.ts \
-                src/qt/locale/ziocoin_ru.ts \
-                src/qt/locale/ziocoin_sk.ts \
-                src/qt/locale/ziocoin_sv.ts \
-                src/qt/locale/ziocoin_vi.ts \
-                src/qt/locale/ziocoin_zh_CN.ts \
-                src/qt/locale/ziocoin_zh_TW.ts
+TRANSLATIONS += src/qt/locale/chaoscoin_bg.ts \
+                src/qt/locale/chaoscoin_de.ts \
+                src/qt/locale/chaoscoin_en.ts \
+                src/qt/locale/chaoscoin_es.ts \
+                src/qt/locale/chaoscoin_fi.ts \
+                src/qt/locale/chaoscoin_fr.ts \
+                src/qt/locale/chaoscoin_it.ts \
+                src/qt/locale/chaoscoin_ja.ts \
+                src/qt/locale/chaoscoin_pl.ts \
+                src/qt/locale/chaoscoin_pt.ts \
+                src/qt/locale/chaoscoin_ru.ts \
+                src/qt/locale/chaoscoin_sk.ts \
+                src/qt/locale/chaoscoin_sv.ts \
+                src/qt/locale/chaoscoin_vi.ts \
+                src/qt/locale/chaoscoin_zh_CN.ts \
+                src/qt/locale/chaoscoin_zh_TW.ts

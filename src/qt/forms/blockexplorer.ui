@@ -168,7 +168,7 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="../ziocoin.qrc"/>
+  <include location="../chaoscoin.qrc"/>
  </resources>
  <connections/>
 </ui>

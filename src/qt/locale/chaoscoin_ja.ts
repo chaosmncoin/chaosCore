@@ -257,6 +257,6 @@
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     </context>
 </TS>

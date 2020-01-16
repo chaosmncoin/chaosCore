@@ -1,6 +1,6 @@
 [Protocol]
-exec=ziocoin-qt '%u'
-protocol=ziocoin
+exec=chaoscoin-qt '%u'
+protocol=chaoscoin
 input=none
 output=none
 helper=true

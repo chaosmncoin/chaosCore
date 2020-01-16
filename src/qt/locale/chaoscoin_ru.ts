@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши ZIO-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши HAO-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши ZIO-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши HAO-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши ZIO от кражи с использованием вредоносного ПО.</translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши HAO от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ ZIO&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ HAO&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -231,16 +231,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите ZIO адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите HAO адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>Адрес ZIO для подписи сообщения с помощью</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>Адрес HAO для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -271,8 +271,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес HAO</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>Адрес ZIO, которым подписано сообщение</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>Адрес HAO, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным ZIO адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным HAO адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,16 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Отправить монеты на ZIO адрес</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Отправить монеты на HAO адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и ziocoin: URI)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Запросить платежи (генерирует QR-код и chaoscoin: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
-        <translation>&amp;О Zio Coin Core</translation>
+        <source>&amp;About Chaos Coin Core</source>
+        <translation>&amp;О Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
-        <translation>Показать информацию о Zio Coin Core</translation>
+        <source>Show information about Chaos Coin Core</source>
+        <translation>Показать информацию о Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Zio Coin</source>
-        <translation>Изменение параметров конфигурации Zio Coin</translation>
+        <source>Modify configuration options for Chaos Coin</source>
+        <translation>Изменение параметров конфигурации Chaos Coin</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими ZIO адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими HAO адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным ZIO адресом </translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным HAO адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -658,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a ziocoin: URI or payment request</source>
-        <translation>Открыть ziocoin: URI или запрос платежа</translation>
+        <source>Open a chaoscoin: URI or payment request</source>
+        <translation>Открыть chaoscoin: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -670,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the Zio Coin Core help message to get a list with possible Zio Coin command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Zio Coin</translation>
+        <source>Show the Chaos Coin Core help message to get a list with possible Chaos Coin command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды Chaos Coin</translation>
     </message>
     <message>
-        <source>Zio Coin Core client</source>
-        <translation>Клиент Zio Coin Core</translation>
+        <source>Chaos Coin Core client</source>
+        <translation>Клиент Chaos Coin Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -801,8 +801,8 @@ MultiSend: %1</translation>
         <translation>Текстовая метка</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
-        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (ziocoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
+        <translation>Будут показаны не все транзакции. Для отображения всех транзакций необходимо выставить txindex=1 в конфигурационном файле (chaoscoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -975,8 +975,8 @@ MultiSend: %1</translation>
         <translation>средне-высокий</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 uzio per input.</source>
-        <translation>Может вариировать +/- %1 uzio к вводу</translation>
+        <source>Can vary +/- %1 uhao per input.</source>
+        <translation>Может вариировать +/- %1 uhao к вводу</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1090,8 +1090,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ZIO address.</source>
-        <translation>Введенный адрес "%1" не является ZIO адресом.</translation>
+        <source>The entered address "%1" is not a valid HAO address.</source>
+        <translation>Введенный адрес "%1" не является HAO адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1136,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Zio Coin Core</source>
-        <translation>О Zio Coin Core</translation>
+        <source>About Chaos Coin Core</source>
+        <translation>О Chaos Coin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1191,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Zio Coin Core.</source>
-        <translation>Добро пожаловать в Zio Coin Core.</translation>
+        <source>Welcome to Chaos Coin Core.</source>
+        <translation>Добро пожаловать в Chaos Coin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Zio Coin Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Zio Coin Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Chaos Coin Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Chaos Coin Core.</translation>
     </message>
     <message>
-        <source>Zio Coin Core will download and store a copy of the Zio Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Zio Coin Core загрузит и сохранит копию цепочки блоков Zio Coin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Chaos Coin Core will download and store a copy of the Chaos Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Chaos Coin Core загрузит и сохранит копию цепочки блоков Chaos Coin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1211,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1353,12 +1353,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ZIO addresses after it matures.
-To Add: enter percentage to give and ZIO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other HAO addresses after it matures.
+To Add: enter percentage to give and HAO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие ZIO адреса.
-Для добавления: введите передаваемый процент и ZIO адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие HAO адреса.
+Для добавления: введите передаваемый процент и HAO адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1531,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the Zio Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт Zio Coin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the Chaos Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт Chaos Coin через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1551,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start Zio Coin after logging in to the system.</source>
-        <translation>Автоматически запускать Zio Coin после входа в систему.</translation>
+        <source>Automatically start Chaos Coin after logging in to the system.</source>
+        <translation>Автоматически запускать Chaos Coin после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start Zio Coin on system login</source>
-        <translation>&amp;Запускать Zio Coin при входе в систему</translation>
+        <source>&amp;Start Chaos Coin on system login</source>
+        <translation>&amp;Запускать Chaos Coin при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1583,16 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zio Coin.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Zio Coin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chaos Coin.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска Chaos Coin.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Zio Coin network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети Zio Coin через SOCKS5 прокси.</translation>
+        <source>Connect to the Chaos Coin network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети Chaos Coin через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1738,8 +1738,8 @@ Please check the address and try again.</source>
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zio Coin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Zio Coin после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chaos Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Chaos Coin после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1801,12 +1801,12 @@ Please check the address and try again.</source>
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start ziocoin: click-to-pay handler</source>
-        <translation>Не удалось запустить ziocoin: обработчик click-to-pay </translation>
+        <source>Cannot start chaoscoin: click-to-pay handler</source>
+        <translation>Не удалось запустить chaoscoin: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid ZIO address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный ZIO адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid HAO address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный HAO адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1891,8 +1891,8 @@ Please check the address and try again.</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a ZIO address (e.g. %1)</source>
-        <translation>Введите адрес ZIO (например %1)</translation>
+        <source>Enter a HAO address (e.g. %1)</source>
+        <translation>Введите адрес HAO (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2025,8 +2025,8 @@ Please check the address and try again.</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Zio Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки Zio Coin. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the Chaos Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки Chaos Coin. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2186,8 +2186,8 @@ Please check the address and try again.</source>
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the Zio Coin RPC console.</source>
-        <translation>Добро пожаловать в окружение Zio Coin RPC.</translation>
+        <source>Welcome to the Chaos Coin RPC console.</source>
+        <translation>Добро пожаловать в окружение Chaos Coin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2406,8 +2406,8 @@ Please check the address and try again.</source>
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 ZIO</source>
-        <translation>0 ZIO</translation>
+        <source>0 HAO</source>
+        <translation>0 HAO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2486,8 +2486,8 @@ Please check the address and try again.</source>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid ZIO address</source>
-        <translation>Предупреждение: неправильный ZIO адрес</translation>
+        <source>Warning: Invalid HAO address</source>
+        <translation>Предупреждение: неправильный HAO адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2540,8 +2540,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Zio Coin Core is shutting down...</source>
-        <translation>Zio Coin Core выключается...</translation>
+        <source>Chaos Coin Core is shutting down...</source>
+        <translation>Chaos Coin Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2551,8 +2551,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>Адрес ZIO для подписи сообщения с помощью</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>Адрес HAO для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2575,16 +2575,16 @@ Please check the address and try again.</source>
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес HAO</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>Адрес ZIO, которым подписано сообщение</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>Адрес HAO, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным ZIO адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным HAO адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2630,8 +2630,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2650,8 +2650,8 @@ Please check the address and try again.</source>
         <translation>Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>The Zio Coin Core developers</source>
-        <translation>Разработчики Zio Coin Core</translation>
+        <source>The Chaos Coin Core developers</source>
+        <translation>Разработчики Chaos Coin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2902,7 +2902,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation>Для SwiftTX требуется как минимум 6 подтверждений, Вам нужно подождать несколько минут и попытаться снова.</translation>
@@ -2940,8 +2940,8 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The Zio Coin Core Developers</source>
-        <translation>Copyright (C) 2017-%i Разработчики Zio Coin Core</translation>
+        <source>Copyright (C) 2017-%i The Chaos Coin Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики Chaos Coin Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

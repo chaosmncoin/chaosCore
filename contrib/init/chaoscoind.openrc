@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/ziocoin/.ziocoin" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/ziocoin/.ziocoin"
+if [ -d "/var/lib/chaoscoin/.chaoscoin" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/chaoscoin/.chaoscoin"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/ziocoind"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/chaoscoind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/ziocoin/ziocoin.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/ziocoind}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/ziocoind.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/chaoscoin/chaoscoin.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/chaoscoind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/chaoscoind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-ziocoin}
-BITCOIND_GROUP=${BITCOIND_GROUP:-ziocoin}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/ziocoind}
+BITCOIND_USER=${BITCOIND_USER:-chaoscoin}
+BITCOIND_GROUP=${BITCOIND_GROUP:-chaoscoin}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/chaoscoind}
 
-name="Zio Coin Core Daemon"
-description="Zio Coin crypto-currency p2p network daemon"
+name="Chaos Coin Core Daemon"
+description="Chaos Coin crypto-currency p2p network daemon"
 
-command="/usr/bin/ziocoind"
+command="/usr/bin/chaoscoind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run ziocoind."
+		eerror "ERROR: You must set a secure rpcpassword to run chaoscoind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Zio Coin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Chaos Coin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

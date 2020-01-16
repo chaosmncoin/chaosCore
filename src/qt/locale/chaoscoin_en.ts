@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The ZIO address to sign the message with</source>
+        <source>The HAO address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ZIO address</source>
+        <source>Sign the message to prove you own this HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The ZIO address the message was signed with</source>
+        <source>The HAO address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -806,17 +806,17 @@
     <message>
         <location line="-427"/>
         <location line="+890"/>
-        <source>Zio Coin Core</source>
+        <source>Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-707"/>
-        <source>Send coins to a ZIO address</source>
+        <source>Send coins to a HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -836,27 +836,27 @@
     </message>
     <message>
         <location line="+31"/>
-        <source>&amp;About Zio Coin Core</source>
+        <source>&amp;About Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Zio Coin Core</source>
+        <source>Show information about Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for Zio Coin</source>
+        <source>Modify configuration options for Chaos Coin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -896,7 +896,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Open a ziocoin: URI or payment request</source>
+        <source>Open a chaoscoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -911,17 +911,17 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the Zio Coin Core help message to get a list with possible Zio Coin command-line options</source>
+        <source>Show the Chaos Coin Core help message to get a list with possible Chaos Coin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+214"/>
-        <source>Zio Coin Core client</source>
+        <source>Chaos Coin Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+212"/>
-        <source>%n active connection(s) to Zio Coin network</source>
+        <source>%n active connection(s) to Chaos Coin network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1117,7 +1117,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+476"/>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1339,8 +1339,8 @@ Address: %4
     </message>
     <message>
         <location line="+238"/>
-        <source>Can vary +/- %1 uzio per input.</source>
-        <translation>Can vary +/- %1 uzio per input.</translation>
+        <source>Can vary +/- %1 uhao per input.</source>
+        <translation>Can vary +/- %1 uhao per input.</translation>
     </message>
     <message>
         <location filename="../forms/coincontroldialog.ui" line="-334"/>
@@ -1486,7 +1486,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-        <source>The entered address &quot;%1&quot; is not a valid ZIO address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid HAO address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1542,7 +1542,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>Zio Coin Core</source>
+        <source>Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1553,7 +1553,7 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-        <source>About Zio Coin Core</source>
+        <source>About Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,17 +1611,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Zio Coin Core.</source>
+        <source>Welcome to Chaos Coin Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Zio Coin Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Chaos Coin Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Zio Coin Core will download and store a copy of the Zio Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Chaos Coin Core will download and store a copy of the Chaos Coin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1636,7 +1636,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-        <source>Zio Coin Core</source>
+        <source>Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1812,8 +1812,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ZIO addresses after it matures.
-To Add: enter percentage to give and ZIO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other HAO addresses after it matures.
+To Add: enter percentage to give and HAO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -2068,7 +2068,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send ZIO to</source>
+        <source>Add destinations to send HAO to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2243,7 +2243,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the Zio Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Chaos Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2268,12 +2268,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-176"/>
-        <source>Automatically start Zio Coin after logging in to the system.</source>
+        <source>Automatically start Chaos Coin after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Zio Coin on system login</source>
+        <source>&amp;Start Chaos Coin on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zio Coin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chaos Coin.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2318,7 +2318,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+114"/>
-        <source>Connect to the Zio Coin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Chaos Coin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2478,7 +2478,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+43"/>
-        <source>ZIO Balances</source>
+        <source>HAO Balances</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2517,7 +2517,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-153"/>
         <location line="+1393"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zio Coin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Chaos Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2579,7 +2579,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+36"/>
-        <source>ZIO:</source>
+        <source>HAO:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2594,7 +2594,7 @@ p, li { white-space: pre-wrap; }
         <location line="+189"/>
         <location line="+31"/>
         <location line="+44"/>
-        <source>0.000 000 00 ZIO</source>
+        <source>0.000 000 00 HAO</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2650,12 +2650,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-108"/>
-        <source>Cannot start ziocoin: click-to-pay handler</source>
+        <source>Cannot start chaoscoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-        <source>URI cannot be parsed! This can be caused by an invalid ZIO address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid HAO address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2763,7 +2763,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a ZIO address (e.g. %1)</source>
+        <source>Enter a HAO address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2958,7 +2958,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+79"/>
-        <source>Open the Zio Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Chaos Coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3185,7 +3185,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-36"/>
-        <source>Welcome to the Zio Coin RPC console.</source>
+        <source>Welcome to the Chaos Coin RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3301,12 +3301,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Zio Coin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Chaos Coin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Zio Coin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Chaos Coin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3589,7 +3589,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+7"/>
-        <source>0 ZIO</source>
+        <source>0 HAO</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3659,18 +3659,18 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+772"/>
-        <source>If the custom fee is set to 1000 uZIOs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uZIOs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uZIOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uHAOs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uHAOs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uHAOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uZIOs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uZIOs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uZIOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uHAOs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uHAOs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uHAOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Zio Coin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Chaos Coin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3791,7 +3791,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+622"/>
-        <source>Warning: Invalid ZIO address</source>
+        <source>Warning: Invalid HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3920,7 +3920,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The ZIO address to send the payment to</source>
+        <source>The HAO address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3974,7 +3974,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the ziocoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Zio Coin network.</source>
+        <source>A message that was attached to the chaoscoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Chaos Coin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4009,7 +4009,7 @@ p, li { white-space: pre-wrap; }
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>Zio Coin Core is shutting down...</source>
+        <source>Chaos Coin Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4037,7 +4037,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+18"/>
-        <source>The ZIO address to sign the message with</source>
+        <source>The HAO address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4079,17 +4079,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ZIO address</source>
+        <source>Sign the message to prove you own this HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The ZIO address the message was signed with</source>
+        <source>The HAO address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4204,7 +4204,7 @@ p, li { white-space: pre-wrap; }
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Zio Coin Core</source>
+        <source>Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4229,7 +4229,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+1"/>
-        <source>The Zio Coin Core developers</source>
+        <source>The Chaos Coin Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4887,7 +4887,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ZIO.</source>
+        <source>SwiftTX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 HAO.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4940,9 +4940,9 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
-        <location filename="../ziocoinstrings.cpp" line="+15"/>
+        <location filename="../chaoscoinstrings.cpp" line="+15"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -4973,7 +4973,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+2"/>
-        <source>Cannot obtain a lock on data directory %s. Zio Coin Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Chaos Coin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5038,12 +5038,12 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in ZIO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in HAO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in ZIO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in HAO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5158,27 +5158,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location line="+4"/>
-        <source>To use ziocoind, or the -server option to ziocoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use chaoscoind, or the -server option to chaoscoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=ziocoinrpc
+rpcuser=chaoscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Chaos Coin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Zio Coin Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Chaos Coin Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 ZIO.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 HAO.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5198,7 +5198,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zio Coin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Chaos Coin Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5383,7 +5383,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The Zio Coin Core Developers</source>
+        <source>Copyright (C) 2017-%i The Chaos Coin Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5493,7 +5493,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Zio Coin Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Chaos Coin Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5558,7 +5558,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in ZIO/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in HAO/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5633,7 +5633,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Zio Coin Core is shutting down.</source>
+        <source>Initialization sanity check failed. Chaos Coin Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5750,7 +5750,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+38"/>
-        <source>Disable all Zio Coin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all Chaos Coin specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6425,7 +6425,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zio Coin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Zio Coin Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Chaos Coin Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -152,16 +152,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos ZIOs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos HAOs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS ZIO&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS HAO&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse ZIO que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse HAO que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>L'adresse ZIO avec laquelle signer le message</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>L'adresse HAO avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse HAO</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>L'adresse ZIO avec laquelle le message a été signé</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>L'adresse HAO avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ZIO renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse HAO renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Envoyer des pièces à une adresse ZIO</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Envoyer des pièces à une adresse HAO</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for ZIO</source>
-        <translation>Modifier les options de configuration pour ZIO</translation>
+        <source>Modify configuration options for HAO</source>
+        <translation>Modifier les options de configuration pour HAO</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse ZIO pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse HAO pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse ZIO spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse HAO spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (ziocoin.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (chaoscoin.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ZIO address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse ZIO valide</translation>
+        <source>The entered address "%1" is not a valid HAO address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse HAO valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1319,8 +1319,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Après commission</translation>
     </message>
     <message>
-        <source>0 ZIO</source>
-        <translation>0 ZIO</translation>
+        <source>0 HAO</source>
+        <translation>0 HAO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -1402,8 +1402,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The ZIO address to send the payment to</source>
-        <translation>L'adresse ZIO à laquelle envoyer le paiement</translation>
+        <source>The HAO address to send the payment to</source>
+        <translation>L'adresse HAO à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1448,8 +1448,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>L'adresse ZIO avec laquelle signer le message</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>L'adresse HAO avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1476,16 +1476,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse HAO</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>L'adresse ZIO avec laquelle le message a été signé</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>L'adresse HAO avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse ZIO renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse HAO renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1679,7 +1679,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

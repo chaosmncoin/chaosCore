@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copia l'indirizzo selezionato negli appunti</translation>
+        <translation>Copia l'indirizzo selehaonato negli appunti</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -23,7 +23,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Elimina l'indirizzo selezionato dalla lista</translation>
+        <translation>Elimina l'indirizzo selehaonato dalla lista</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
@@ -43,31 +43,31 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Seleziona l'indirizzo a cui inviare valuta</translation>
+        <translation>Selehaona l'indirizzo a cui inviare valuta</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Seleziona l'indirizzo a cui ricevere valuta</translation>
+        <translation>Selehaona l'indirizzo a cui ricevere valuta</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;Seleziona</translation>
+        <translation>&amp;Selehaona</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Indirizzi di destinazione</translation>
+        <translation>Indirizzi di destinahaone</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Indirizzi di ricezione</translation>
+        <translation>Indirizzi di ricehaone</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi ZIO per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi HAO per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricehaone prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi ZIO per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi HAO per la ricehaone di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transahaone.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -91,7 +91,7 @@
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Esportazione fallita</translation>
+        <translation>Esportahaone fallita</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -149,7 +149,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Questa operazione richiede la parola d'ordine per sbloccare il portafoglio.</translation>
+        <translation>Questa operahaone richiede la parola d'ordine per sbloccare il portafoglio.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -157,7 +157,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Questa operazione richiede la parola d'ordine per decrittografare il portafoglio.</translation>
+        <translation>Questa operahaone richiede la parola d'ordine per decrittografare il portafoglio.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -176,16 +176,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi ZIO dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi HAO dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI ZIO&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Attenhaone: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI HAO&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -213,11 +213,11 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>La frase immessa per la decifrazione del portafoglio era errata.</translation>
+        <translation>La frase immessa per la decifrahaone del portafoglio era errata.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Decriptazione portafoglio fallita</translation>
+        <translation>Decriptahaone portafoglio fallita</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
@@ -225,7 +225,7 @@
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Attenzione: il tasto Caps Lock è attivato!</translation>
+        <translation>Attenhaone: il tasto Caps Lock è attivato!</translation>
     </message>
 </context>
 <context>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo ZIO che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo HAO che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>L'indirizzo ZIO per firmare il messaggio con</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>L'indirizzo HAO per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo HAO</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>L'indirizzo ZIO con cui è stato firmato il messaggio</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>L'indirizzo HAO con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ZIO specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo HAO specificato</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Decriptazione fallita.</translation>
+        <translation>Decriptahaone fallita.</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
@@ -376,7 +376,7 @@
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Per favore attendere l'importazione della chiave</translation>
+        <translation>Per favore attendere l'importahaone della chiave</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
@@ -419,11 +419,11 @@
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transazioni</translation>
+        <translation>&amp;Transahaoni</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Espora la cronologia delle transazioni</translation>
+        <translation>Espora la cronologia delle transahaoni</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -431,19 +431,19 @@
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Chiude l'applicazione</translation>
+        <translation>Chiude l'applicahaone</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Informazioni su &amp;Qt</translation>
+        <translation>Informahaoni su &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Visualizza informazioni su Qt</translation>
+        <translation>Visualizza informahaoni su Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opzioni...</translation>
+        <translation>&amp;Ophaoni...</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -467,7 +467,7 @@
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posizione</translation>
+        <translation>Fa una copia di sicurezza del tuo portafoglio in un'altra posihaone</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -499,11 +499,11 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informazioni</translation>
+        <translation>&amp;Informahaoni</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Visualizza informazioni di diagnostica</translation>
+        <translation>Visualizza informahaoni di diagnostica</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
@@ -527,7 +527,7 @@
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Mostra le informazioni sui peer</translation>
+        <translation>Mostra le informahaoni sui peer</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
@@ -535,11 +535,11 @@
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Mostra opzioni di riparazione del portafoglio</translation>
+        <translation>Mostra ophaoni di riparahaone del portafoglio</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Apri il file di configurazione</translation>
+        <translation>Apri il file di configurahaone</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
@@ -559,11 +559,11 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Indirizzi di Destinazione</translation>
+        <translation>&amp;Indirizzi di Destinahaone</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Mostra l'elenco degli indirizzi e delle etichette di ricezione utilizzati</translation>
+        <translation>Mostra l'elenco degli indirizzi e delle etichette di ricehaone utilizzati</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -571,11 +571,11 @@
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Sincronizzazione dati addizionali: %p%</translation>
+        <translation>Sincronizzahaone dati addihaonali: %p%</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Impostazioni</translation>
+        <translation>&amp;Impostahaoni</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
@@ -590,16 +590,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Invia monete all'indirizzo ZIO</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Invia monete all'indirizzo HAO</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e ziocoin: URIs)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e chaoscoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -610,24 +610,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
-        <translation>&amp;Informazioni Zio Coin Core</translation>
+        <source>&amp;About Chaos Coin Core</source>
+        <translation>&amp;Informahaoni Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
-        <translation>Visualizza informazioni su Zio Coin Core</translation>
+        <source>Show information about Chaos Coin Core</source>
+        <translation>Visualizza informahaoni su Chaos Coin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Zio Coin</source>
-        <translation>Modifica le opzioni di configurazione per Zio Coin</translation>
+        <source>Modify configuration options for Chaos Coin</source>
+        <translation>Modifica le ophaoni di configurahaone per Chaos Coin</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi ZIO per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi HAO per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ZIO specifici</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi HAO specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -635,31 +635,31 @@
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>Impostazioni MultiSend</translation>
+        <translation>Impostahaoni MultiSend</translation>
     </message>
     <message>
-        <source>Open a ziocoin: URI or payment request</source>
-        <translation>Apri un ziocoin: URI o richiesta di pagamento</translation>
+        <source>Open a chaoscoin: URI or payment request</source>
+        <translation>Apri un chaoscoin: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Zio Coin Core help message to get a list with possible Zio Coin command-line options</source>
-        <translation>Mostra il messaggio di aiuto Zio Coin Core per ottenere un elenco con le possibili opzioni di riga di comando Zio Coin</translation>
+        <source>Show the Chaos Coin Core help message to get a list with possible Chaos Coin command-line options</source>
+        <translation>Mostra il messaggio di aiuto Chaos Coin Core per ottenere un elenco con le possibili ophaoni di riga di comando Chaos Coin</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Sincronizzazione con la rete ...</translation>
+        <translation>Sincronizzahaone con la rete ...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importazione di blocchi dal disco ...</translation>
+        <translation>Importahaone di blocchi dal disco ...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Reindicizzazione blocchi su disco ...</translation>
+        <translation>Reindicizzahaone blocchi su disco ...</translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -675,7 +675,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Le transazioni successive non saranno visibili per ora.</translation>
+        <translation>Le transahaoni successive non saranno visibili per ora.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -687,19 +687,19 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>Informazioni</translation>
+        <translation>Informahaoni</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transazioni Inviate</translation>
+        <translation>Transahaoni Inviate</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Transazione in entrata</translation>
+        <translation>Transahaone in entrata</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Transazioni MultiSend inviate</translation>
+        <translation>Transahaoni MultiSend inviate</translation>
     </message>
     <message>
         <source>Date: %1
@@ -742,15 +742,15 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Indirizzo / Blocco / Transazione</translation>
+        <translation>Indirizzo / Blocco / Transahaone</translation>
     </message>
     <message>
         <source>Search</source>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ziocoin.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (ziocoin.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (chaoscoin.conf).</source>
+        <translation>Non tutte le transahaoni verranno visualizzate. Per vedere tutte le transahaoni è necessario aggiungere txindex=1 nel file di configurahaone (chaoscoin.conf)</translation>
     </message>
 </context>
 <context>
@@ -828,11 +828,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copia ID transazione</translation>
+        <translation>Copia ID transahaone</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Prego selezionare "Modalità lista" per utilizzare questa funzione</translation>
+        <translation>Prego selehaonare "Modalità lista" per utilizzare questa funhaone</translation>
     </message>
     <message>
         <source>yes</source>
@@ -844,7 +844,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Questa etichetta diventerà rossa se la transazione supera i 1000 bytes</translation>
+        <translation>Questa etichetta diventerà rossa se la transahaone supera i 1000 bytes</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -884,8 +884,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -893,7 +893,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opzioni linea di comando</translation>
+        <translation>Ophaoni linea di comando</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -901,7 +901,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opzioni linea di comando</translation>
+        <translation>ophaoni linea di comando</translation>
     </message>
     </context>
 <context>
@@ -911,8 +911,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -974,7 +974,7 @@ MultiSend: %1</translation>
     <name>RPCConsole</name>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informazioni</translation>
+        <translation>&amp;Informahaoni</translation>
     </message>
     </context>
 <context>
@@ -1086,8 +1086,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>L'indirizzo ZIO per firmare il messaggio con</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>L'indirizzo HAO per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1110,16 +1110,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ZIO</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo HAO</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>L'indirizzo ZIO con cui è stato firmato il messaggio</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>L'indirizzo HAO con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ZIO specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo HAO specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1157,8 +1157,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Core</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Core</translation>
     </message>
     </context>
 <context>
@@ -1205,7 +1205,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Copia ID transazione</translation>
+        <translation>Copia ID transahaone</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
@@ -1229,7 +1229,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Esportazione fallita</translation>
+        <translation>Esportahaone fallita</translation>
     </message>
     </context>
 <context>
@@ -1253,14 +1253,14 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informazioni</translation>
+        <translation>Informahaoni</translation>
     </message>
     <message>
         <source>Warning</source>

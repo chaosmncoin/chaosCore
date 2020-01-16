@@ -808,12 +808,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 	border:0;
 }
 
-/* About Zio Coin Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Zio Coin Contents */
+/* About Chaos Coin Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Chaos Coin Contents */
 	margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Zio Coin text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Chaos Coin text */
 	margin-right:10px;
 }
 
@@ -840,7 +840,7 @@ QLabel#labelOverviewHeaderLeft {
 
 QLabel#labelOverviewHeaderRight {
 	qproperty-alignment: 'AlignVCenter | AlignRight';
-	background-image: url(':/images/ziocoin_logo_horizontal');
+	background-image: url(':/images/chaoscoin_logo_horizontal');
 	background-repeat: no-repeat;
 }
 
@@ -910,7 +910,7 @@ QWidget .QFrame#frameBalances .QLabel#labelTotalText, /* Total Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelPendingText, /* Pending Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelAvailableText, /* Available Balance Label */
 QWidget .QFrame#frameBalances .QLabel#labelLockedText, /* Locked Balance Label */
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZIO Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* HAO Balances Header Label */
 	qproperty-alignment: 'AlignVCenter | AlignLeft';
 	min-width: 160px;
 	color: #333333;
@@ -919,11 +919,11 @@ QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZIO Balances Header Lab
 	font-size: 14px;
 }
 
-QWidget .QFrame#frameBalances .QLabel#labelBalances { /* ZIO Balances Header Label */
+QWidget .QFrame#frameBalances .QLabel#labelBalances { /* HAO Balances Header Label */
 	font-weight: bold;
 }
 
-QWidget .QFrame#frameBalances #lineBalances { /* ZIO Balances Line separator */
+QWidget .QFrame#frameBalances #lineBalances { /* HAO Balances Line separator */
 	background-color:#0b151e;
 }
 

@@ -2,8 +2,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZIOCOIN_CSPORKDB_H
-#define ZIOCOIN_CSPORKDB_H
+#ifndef CHAOSCOIN_CSPORKDB_H
+#define CHAOSCOIN_CSPORKDB_H
 
 #include <boost/filesystem/path.hpp>
 #include "leveldbwrapper.h"
@@ -25,4 +25,4 @@ public:
 };
 
 
-#endif //ZIOCOIN_CSPORKDB_H
+#endif //CHAOSCOIN_CSPORKDB_H

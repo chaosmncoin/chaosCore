@@ -2,4 +2,4 @@
 
 This is a Linux bash script that will set up tc to limit the outgoing bandwidth for connections to the Bitcoin network. It limits outbound TCP traffic with a source or destination port of 8346, but not if the destination IP is within a LAN.
 
-This means one can have an always-on ziocoind instance running, and another local ziocoind/ziocoin-qt instance which connects to this node and receives blocks from it.
+This means one can have an always-on chaoscoind instance running, and another local chaoscoind/chaoscoin-qt instance which connects to this node and receives blocks from it.

@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations see [translation_process.md](https://github.com/ziocoin/ziocoin/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations see [translation_process.md](https://github.com/chaoscoin/chaoscoin/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,12 +24,12 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/ziocoin/gitian.sigs.git
-    git clone https://github.com/ziocoin/ziocoin-detached-sigs.git
+    git clone https://github.com/chaoscoin/gitian.sigs.git
+    git clone https://github.com/chaoscoin/chaoscoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/ziocoin/ziocoin.git
+    git clone https://github.com/chaoscoin/chaoscoin.git
 
-### Zio Coin maintainers/release engineers, suggestion for writing release notes
+### Chaos Coin maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -50,7 +50,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./ziocoin
+    pushd ./chaoscoin
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -84,7 +84,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../ziocoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../chaoscoin/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -92,55 +92,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url ziocoin=/path/to/ziocoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url chaoscoin=/path/to/chaoscoin,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Zio Coin Core for Linux, Windows, and OS X:
+### Build and sign Chaos Coin Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit ziocoin=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/ziocoin-*.tar.gz build/out/src/ziocoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit chaoscoin=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/chaoscoin-*.tar.gz build/out/src/chaoscoin-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit ziocoin=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/ziocoin-*-win-unsigned.tar.gz inputs/ziocoin-win-unsigned.tar.gz
-    mv build/out/ziocoin-*.zip build/out/ziocoin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit chaoscoin=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/chaoscoin-*-win-unsigned.tar.gz inputs/chaoscoin-win-unsigned.tar.gz
+    mv build/out/chaoscoin-*.zip build/out/chaoscoin-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit ziocoin=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/ziocoin-*-osx-unsigned.tar.gz inputs/ziocoin-osx-unsigned.tar.gz
-    mv build/out/ziocoin-*.tar.gz build/out/ziocoin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit chaoscoin=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/chaoscoin-*-osx-unsigned.tar.gz inputs/chaoscoin-osx-unsigned.tar.gz
+    mv build/out/chaoscoin-*.tar.gz build/out/chaoscoin-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit ziocoin=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/ziocoin-*.tar.gz build/out/src/ziocoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit chaoscoin=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/chaoscoin-*.tar.gz build/out/src/chaoscoin-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`ziocoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`ziocoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`ziocoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `ziocoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`ziocoin-${VERSION}-osx-unsigned.dmg`, `ziocoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`chaoscoin-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`chaoscoin-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`chaoscoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `chaoscoin-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`chaoscoin-${VERSION}-osx-unsigned.dmg`, `chaoscoin-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import ziocoin/contrib/gitian-keys/*.pgp
+    gpg --import chaoscoin/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../ziocoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../ziocoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../ziocoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../ziocoin/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../chaoscoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../chaoscoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../chaoscoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../chaoscoin/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -162,22 +162,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer ziocoin-osx-unsigned.tar.gz to osx for signing
-    tar xf ziocoin-osx-unsigned.tar.gz
+    transfer chaoscoin-osx-unsigned.tar.gz to osx for signing
+    tar xf chaoscoin-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf ziocoin-win-unsigned.tar.gz
+    tar xf chaoscoin-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/ziocoin-detached-sigs
+    cd ~/chaoscoin-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -190,25 +190,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [ziocoin-detached-sigs](https://github.com/ziocoin/ziocoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [chaoscoin-detached-sigs](https://github.com/chaoscoin/chaoscoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../ziocoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/ziocoin-osx-signed.dmg ../ziocoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../chaoscoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/chaoscoin-osx-signed.dmg ../chaoscoin-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../ziocoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../ziocoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../ziocoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/ziocoin-*win64-setup.exe ../ziocoin-${VERSION}-win64-setup.exe
-    mv build/out/ziocoin-*win32-setup.exe ../ziocoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../chaoscoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../chaoscoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../chaoscoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/chaoscoin-*win64-setup.exe ../chaoscoin-${VERSION}-win64-setup.exe
+    mv build/out/chaoscoin-*win32-setup.exe ../chaoscoin-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -230,17 +230,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-ziocoin-${VERSION}-aarch64-linux-gnu.tar.gz
-ziocoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-ziocoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-ziocoin-${VERSION}-x86_64-linux-gnu.tar.gz
-ziocoin-${VERSION}-osx64.tar.gz
-ziocoin-${VERSION}-osx.dmg
-ziocoin-${VERSION}.tar.gz
-ziocoin-${VERSION}-win32-setup.exe
-ziocoin-${VERSION}-win32.zip
-ziocoin-${VERSION}-win64-setup.exe
-ziocoin-${VERSION}-win64.zip
+chaoscoin-${VERSION}-aarch64-linux-gnu.tar.gz
+chaoscoin-${VERSION}-arm-linux-gnueabihf.tar.gz
+chaoscoin-${VERSION}-i686-pc-linux-gnu.tar.gz
+chaoscoin-${VERSION}-x86_64-linux-gnu.tar.gz
+chaoscoin-${VERSION}-osx64.tar.gz
+chaoscoin-${VERSION}-osx.dmg
+chaoscoin-${VERSION}.tar.gz
+chaoscoin-${VERSION}-win32-setup.exe
+chaoscoin-${VERSION}-win32.zip
+chaoscoin-${VERSION}-win64-setup.exe
+chaoscoin-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -262,10 +262,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/ZioCoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/ChaosCoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/ziocoin/ziocoin/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/chaoscoin/chaoscoin/releases/new) with a link to the archived release notes.
 
   - Celebrate

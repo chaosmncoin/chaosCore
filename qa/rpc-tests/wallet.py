@@ -8,8 +8,8 @@
 # Does the following:
 #   a) creates 3 nodes, with an empty chain (no blocks).
 #   b) node0 mines a block
-#   c) node1 mines 32 blocks, so now node 0 has 500000ZIO, node 1 has 4250ZIO, node2 has none.
-#   d) node0 sends 601 ZIO to node2, in two transactions (301 ZIO, then 300 ZIO).
+#   c) node1 mines 32 blocks, so now node 0 has 500000HAO, node 1 has 4250HAO, node2 has none.
+#   d) node0 sends 601 HAO to node2, in two transactions (301 HAO, then 300 HAO).
 #   e) node0 mines a block, collects the fee on the second transaction
 #   f) node1 mines 16 blocks, to mature node0's just-mined block
 #   g) check that node0 has 100-21, node2 has 21

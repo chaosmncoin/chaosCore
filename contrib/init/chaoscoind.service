@@ -1,19 +1,19 @@
 [Unit]
-Description=Zio Coin's distributed currency daemon
+Description=Chaos Coin's distributed currency daemon
 After=network.target
 
 [Service]
-User=ziocoin
-Group=ziocoin
+User=chaoscoin
+Group=chaoscoin
 
 Type=forking
-PIDFile=/var/lib/ziocoind/ziocoind.pid
+PIDFile=/var/lib/chaoscoind/chaoscoind.pid
 
-ExecStart=/usr/bin/ziocoind -daemon -pid=/var/lib/ziocoind/ziocoind.pid \
-          -conf=/etc/ziocoin/ziocoin.conf -datadir=/var/lib/ziocoind
+ExecStart=/usr/bin/chaoscoind -daemon -pid=/var/lib/chaoscoind/chaoscoind.pid \
+          -conf=/etc/chaoscoin/chaoscoin.conf -datadir=/var/lib/chaoscoind
 
-ExecStop=-/usr/bin/ziocoin-cli -conf=/etc/ziocoin/ziocoin.conf \
-         -datadir=/var/lib/ziocoind stop
+ExecStop=-/usr/bin/chaoscoin-cli -conf=/etc/chaoscoin/chaoscoin.conf \
+         -datadir=/var/lib/chaoscoind stop
 
 Restart=always
 PrivateTmp=true

@@ -13,7 +13,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/ziocoin-config.h"
+#include "config/chaoscoin-config.h"
 #endif
 
 #include "compat.h"
@@ -29,7 +29,7 @@
 #include <boost/filesystem/path.hpp>
 #include <boost/thread/exceptions.hpp>
 
-//Zio Coin only features
+//Chaos Coin only features
 
 extern bool fMasterNode;
 extern bool fLiteMode;
@@ -202,7 +202,7 @@ void RenameThread(const char* name);
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("ziocoin-%s", name);
+    std::string s = strprintf("chaoscoin-%s", name);
     RenameThread(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

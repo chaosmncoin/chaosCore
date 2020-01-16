@@ -7,12 +7,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/ziocoin
-src/ziocoind
-src/ziocoin-cli
-src/ziocoin-tx
-src/test/test_ziocoin
-src/qt/test/test_ziocoin-qt
+src/chaoscoin
+src/chaoscoind
+src/chaoscoin-cli
+src/chaoscoin-tx
+src/test/test_chaoscoin
+src/qt/test/test_chaoscoin-qt
 
 # autoreconf
 Makefile.in
@@ -38,8 +38,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/ziocoin-config.h
-src/config/ziocoin-config.h.in
+src/config/chaoscoin-config.h
+src/config/chaoscoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -62,7 +62,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.ziocoin
+.chaoscoin
 *.a
 *.pb.cc
 *.pb.h
@@ -81,12 +81,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-ziocoin-qt
-ZioCoin-Qt.app
+chaoscoin-qt
+ChaosCoin-Qt.app
 
 # Unit-tests
 Makefile.test
-ziocoin-qt_test
+chaoscoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -102,7 +102,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_ziocoin.coverage/
+test_chaoscoin.coverage/
 total.coverage/
 coverage_percent.txt
 

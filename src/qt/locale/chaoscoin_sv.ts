@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina ZIO adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your HAO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina HAO adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your ZIO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina ZIO adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your HAO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina HAO adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Zio Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ZIOs from being stolen by malware infecting your computer.</source>
-        <translation>Zio Coin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ZIOs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Chaos Coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your HAOs from being stolen by malware infecting your computer.</source>
+        <translation>Chaos Coin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina HAOs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA ZIO&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA HAO&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a ZIO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en ZIO adress som du vill kryptera med BIP 38.
+        <source>Enter a HAO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en HAO adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>ZIO adressen för signera meddelandet med</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>HAO adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna ZIO adress</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna HAO adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>ZIO adressen meddelandet blev signerat med</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>HAO adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ZIO adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika HAO adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kärna</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Skicka mynt till en ZIO adress</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Skicka mynt till en HAO adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och ziocoin: URls)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och chaoscoin: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
-        <translation>Om Zio Coin Kärnan</translation>
+        <source>&amp;About Chaos Coin Core</source>
+        <translation>Om Chaos Coin Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
-        <translation>Visa information om Zio Coin Kärnan</translation>
+        <source>Show information about Chaos Coin Core</source>
+        <translation>Visa information om Chaos Coin Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Zio Coin</source>
-        <translation>Ändra konfigurationsval för Zio Coin</translation>
+        <source>Modify configuration options for Chaos Coin</source>
+        <translation>Ändra konfigurationsval för Chaos Coin</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Signera meddelanden med din ZIO adress för att visa att du äger dem</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Signera meddelanden med din HAO adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ZIO adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika HAO adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Zio Coin Core client</source>
-        <translation>Zio Coin kärn klient</translation>
+        <source>Chaos Coin Core client</source>
+        <translation>Chaos Coin kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kärna</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kärna</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1095,8 +1095,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ZIO address to sign the message with</source>
-        <translation>ZIO adressen för signera meddelandet med</translation>
+        <source>The HAO address to sign the message with</source>
+        <translation>HAO adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1119,16 +1119,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna ZIO adress</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna HAO adress</translation>
     </message>
     <message>
-        <source>The ZIO address the message was signed with</source>
-        <translation>ZIO adressen meddelandet blev signerat med</translation>
+        <source>The HAO address the message was signed with</source>
+        <translation>HAO adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ZIO address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ZIO adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified HAO address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika HAO adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1170,8 +1170,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>Zio Coin Kärna</translation>
+        <source>Chaos Coin Core</source>
+        <translation>Chaos Coin Kärna</translation>
     </message>
     </context>
 <context>
@@ -1354,7 +1354,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

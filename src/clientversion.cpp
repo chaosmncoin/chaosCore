@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both ziocoind and ziocoin-qt, to make it harder for attackers to
+ * for both chaoscoind and chaoscoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Zio Coin Core");
+const std::string CLIENT_NAME("Chaos Coin Core");
 
 /**
  * Client version number

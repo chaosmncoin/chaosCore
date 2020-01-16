@@ -77,15 +77,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += ziocoind
+  bin_PROGRAMS += chaoscoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += ziocoin-cli ziocoin-tx
+  bin_PROGRAMS += chaoscoin-cli chaoscoin-tx
 endif
 
 .PHONY: FORCE
-# ziocoin core #
+# chaoscoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -186,7 +186,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between ziocoind and ziocoin-qt
+# server: shared between chaoscoind and chaoscoin-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -232,7 +232,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between ziocoind and ziocoin-qt, but only linked
+# wallet: shared between chaoscoind and chaoscoin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between ziocoind, and ziocoin-qt and non-server tools
+# common: shared between chaoscoind, and chaoscoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between ziocoin-cli and ziocoin-qt
+# cli: shared between chaoscoin-cli and chaoscoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-ziocoind_LDADD = \
+chaoscoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -372,26 +372,26 @@ ziocoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-ziocoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+chaoscoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-ziocoind_LDADD += libbitcoin_wallet.a
+chaoscoind_LDADD += libbitcoin_wallet.a
 endif
-ziocoind_SOURCES = ziocoind.cpp
+chaoscoind_SOURCES = chaoscoind.cpp
 #
 
 if TARGET_WINDOWS
-ziocoind_SOURCES += ziocoind-res.rc
+chaoscoind_SOURCES += chaoscoind-res.rc
 endif
 
-ziocoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-ziocoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-ziocoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chaoscoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+chaoscoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+chaoscoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# ziocoin-cli binary #
-ziocoin_cli_LDADD = \
+# chaoscoin-cli binary #
+chaoscoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
@@ -400,14 +400,14 @@ ziocoin_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-ziocoin_cli_SOURCES = \
-  ziocoin-cli.cpp
+chaoscoin_cli_SOURCES = \
+  chaoscoin-cli.cpp
 
-ziocoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+chaoscoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# ziocoin-tx binary #
-ziocoin_tx_LDADD = \
+# chaoscoin-tx binary #
+chaoscoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -416,15 +416,15 @@ ziocoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-ziocoin_tx_SOURCES = ziocoin-tx.cpp
-ziocoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+chaoscoin_tx_SOURCES = chaoscoin-tx.cpp
+chaoscoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-ziocoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chaoscoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-ziocoin_cli_SOURCES += ziocoin-cli-res.rc
+chaoscoin_cli_SOURCES += chaoscoin-cli-res.rc
 endif
-ziocoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+chaoscoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

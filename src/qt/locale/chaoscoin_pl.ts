@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZIO&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE ZIO!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR HAO&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE HAO!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ZIO jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres HAO jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>&amp;Rdzeń Zio Coin</translation>
+        <source>Chaos Coin Core</source>
+        <translation>&amp;Rdzeń Chaos Coin</translation>
     </message>
     <message>
-        <source>Send coins to a ZIO address</source>
-        <translation>Wyślij monety do adresu ZIO</translation>
+        <source>Send coins to a HAO address</source>
+        <translation>Wyślij monety do adresu HAO</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ziocoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i ziocoin:URI)</translation>
+        <source>Request payments (generates QR codes and chaoscoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i chaoscoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,24 +534,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Zio Coin Core</source>
+        <source>&amp;About Chaos Coin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Zio Coin Core</source>
+        <source>Show information about Chaos Coin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Zio Coin</source>
-        <translation>Modyfikuj opcje konfiguracji Zio Coin</translation>
+        <source>Modify configuration options for Chaos Coin</source>
+        <translation>Modyfikuj opcje konfiguracji Chaos Coin</translation>
     </message>
     <message>
-        <source>Sign messages with your ZIO addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami ZIO, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your HAO addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami HAO, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ZIO addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ZIO</translation>
+        <source>Verify messages to ensure they were signed with specified HAO addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu HAO</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ziocoin: URI or payment request</source>
-        <translation>Otwórz ziocoin: URI i żądanie zapłaty</translation>
+        <source>Open a chaoscoin: URI or payment request</source>
+        <translation>Otwórz chaoscoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Zio Coin Core help message to get a list with possible Zio Coin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Zio Coin, aby dostać listę możliwych opcji Zio Coin command-line</translation>
+        <source>Show the Chaos Coin Core help message to get a list with possible Chaos Coin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Chaos Coin, aby dostać listę możliwych opcji Chaos Coin command-line</translation>
     </message>
     <message>
-        <source>Zio Coin Core client</source>
-        <translation>Rdzeń Zio Coin klient</translation>
+        <source>Chaos Coin Core client</source>
+        <translation>Rdzeń Chaos Coin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>&amp;Rdzeń Zio Coin</translation>
+        <source>Chaos Coin Core</source>
+        <translation>&amp;Rdzeń Chaos Coin</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>&amp;Rdzeń Zio Coin</translation>
+        <source>Chaos Coin Core</source>
+        <translation>&amp;Rdzeń Chaos Coin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Zio Coin after logging in to the system.</source>
-        <translation>Automatycznie uruchom Zio Coin po zalogowaniu do systemu</translation>
+        <source>Automatically start Chaos Coin after logging in to the system.</source>
+        <translation>Automatycznie uruchom Chaos Coin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Zio Coin on system login</source>
-        <translation>&amp;Uruchom Zio Coin podczas logowania do systemu</translation>
+        <source>&amp;Start Chaos Coin on system login</source>
+        <translation>&amp;Uruchom Chaos Coin podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zio Coin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Zio Coin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Chaos Coin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Chaos Coin</translation>
     </message>
     <message>
-        <source>Connect to the Zio Coin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Zio Coin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Chaos Coin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Chaos Coin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1361,8 +1361,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a ZIO address (e.g. %1)</source>
-        <translation>Wprowadź adres ZIO (np. %1)</translation>
+        <source>Enter a HAO address (e.g. %1)</source>
+        <translation>Wprowadź adres HAO (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ZIO address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ZIO jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this HAO address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres HAO jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Zio Coin Core</source>
-        <translation>&amp;Rdzeń Zio Coin</translation>
+        <source>Chaos Coin Core</source>
+        <translation>&amp;Rdzeń Chaos Coin</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>ziocoin-core</name>
+    <name>chaoscoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

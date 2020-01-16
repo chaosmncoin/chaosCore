@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ZioCoin"
-            VALUE "FileDescription",    "ziocoin-cli (OSS RPC client for Zio Coin)"
+            VALUE "CompanyName",        "ChaosCoin"
+            VALUE "FileDescription",    "chaoscoin-cli (OSS RPC client for Chaos Coin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "ziocoin-cli"
+            VALUE "InternalName",       "chaoscoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "ziocoin-cli.exe"
-            VALUE "ProductName",        "ziocoin-cli"
+            VALUE "OriginalFilename",   "chaoscoin-cli.exe"
+            VALUE "ProductName",        "chaoscoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

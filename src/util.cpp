@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/ziocoin-config.h"
+#include "config/chaoscoin-config.h"
 #endif
 
 #include "util.h"
@@ -105,7 +105,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-// Zio Coin only features
+// Chaos Coin only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -227,8 +227,8 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "ziocoin" is a composite category enabling all Zio Coin-related debug output
-            if (ptrCategory->count(string("ziocoin"))) {
+            // "chaoscoin" is a composite category enabling all Chaos Coin-related debug output
+            if (ptrCategory->count(string("chaoscoin"))) {
                 ptrCategory->insert(string("swifttx"));
                 ptrCategory->insert(string("masternode"));
                 ptrCategory->insert(string("mnpayments"));
@@ -392,7 +392,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "ziocoin";
+    const char* pszModule = "chaoscoin";
 #endif
     if (pex)
         return strprintf(
@@ -413,13 +413,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\ZioCoin
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\ZioCoin
-// Mac: ~/Library/Application Support/ZioCoin
-// Unix: ~/.ziocoin
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\ChaosCoin
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\ChaosCoin
+// Mac: ~/Library/Application Support/ChaosCoin
+// Unix: ~/.chaoscoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ZioCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "ChaosCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -431,10 +431,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "ZioCoin";
+    return pathRet / "ChaosCoin";
 #else
     // Unix
-    return pathRet / ".ziocoin";
+    return pathRet / ".chaoscoin";
 #endif
 #endif
 }
@@ -481,7 +481,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "ziocoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "chaoscoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -500,7 +500,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty ziocoin.conf if it does not exist
+        // Create empty chaoscoin.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -511,7 +511,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override ziocoin.conf
+        // Don't overwrite existing settings so command line settings override chaoscoin.conf
         string strKey = string("-") + it->string_key;
         string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -526,7 +526,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 #ifndef WIN32
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "ziocoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "chaoscoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

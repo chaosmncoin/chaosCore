@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Zio Coin developers
+// Copyright (c) 2017-2018 The Chaos Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,10 +48,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Zio Coin Core ziocoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Chaos Coin Core chaoscoin-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  ziocoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded zio coin transaction") + "\n" +
-                               "  ziocoin-tx [options] -create [commands]   " + _("Create hex-encoded zio coin transaction") + "\n" +
+                               "  chaoscoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded chaos coin transaction") + "\n" +
+                               "  chaoscoin-tx [options] -create [commands]   " + _("Create hex-encoded chaos coin transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -569,7 +569,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded zio coin transaction
+            // param: hex-encoded chaos coin transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

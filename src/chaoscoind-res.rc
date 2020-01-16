@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ZioCoin"
-            VALUE "FileDescription",    "ziocoind (OSS daemon/client for Zio Coin)"
+            VALUE "CompanyName",        "ChaosCoin"
+            VALUE "FileDescription",    "chaoscoind (OSS daemon/client for Chaos Coin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "ziocoind"
+            VALUE "InternalName",       "chaoscoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "ziocoind.exe"
-            VALUE "ProductName",        "ziocoind"
+            VALUE "OriginalFilename",   "chaoscoind.exe"
+            VALUE "ProductName",        "chaoscoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

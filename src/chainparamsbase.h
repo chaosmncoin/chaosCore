@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between ziocoin-cli and ziocoind)
- * of a given instance of the Zio Coin system.
+ * CBaseChainParams defines the base parameters (shared between chaoscoin-cli and chaoscoind)
+ * of a given instance of the Chaos Coin system.
  */
 class CBaseChainParams
 {

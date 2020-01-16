@@ -1,2 +1,2 @@
-usr/local/bin/ziocoind usr/bin
-usr/local/bin/ziocoin-cli usr/bin
+usr/local/bin/chaoscoind usr/bin
+usr/local/bin/chaoscoin-cli usr/bin

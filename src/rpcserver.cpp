@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Zio Coin server.");
+            "\nStop Chaos Coin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Zio Coin server stopping";
+    return "Chaos Coin server stopping";
 }
 
 
@@ -327,39 +327,39 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Zio Coin features */
-        {"ziocoin", "masternode", &masternode, true, true, false},
-        {"ziocoin", "listmasternodes", &listmasternodes, true, true, false},
-        {"ziocoin", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"ziocoin", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"ziocoin", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"ziocoin", "masternodedebug", &masternodedebug, true, true, false},
-        {"ziocoin", "startmasternode", &startmasternode, true, true, false},
-        {"ziocoin", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"ziocoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"ziocoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"ziocoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"ziocoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"ziocoin", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"ziocoin", "mnbudget", &mnbudget, true, true, false},
-        {"ziocoin", "preparebudget", &preparebudget, true, true, false},
-        {"ziocoin", "submitbudget", &submitbudget, true, true, false},
-        {"ziocoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"ziocoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"ziocoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"ziocoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"ziocoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"ziocoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"ziocoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"ziocoin", "checkbudgets", &checkbudgets, true, true, false},
-        {"ziocoin", "mnsync", &mnsync, true, true, false},
-        {"ziocoin", "spork", &spork, true, true, false},
-        {"ziocoin", "preparecommunityproposal", &preparecommunityproposal, true, true, false},
-        {"ziocoin", "submitcommunityproposal", &submitcommunityproposal, true, true, false},
-        {"ziocoin", "getcommunityinfo", &getcommunityinfo, true, true, false},
-        {"ziocoin", "checkcommunityproposals", &checkcommunityproposals, true, true, false},
-        {"ziocoin", "getcommunityproposalvotes", &getcommunityproposalvotes, true, true, false},
-        {"ziocoin", "mncommunityvote", &mncommunityvote, true, true, false},
+        /* Chaos Coin features */
+        {"chaoscoin", "masternode", &masternode, true, true, false},
+        {"chaoscoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"chaoscoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"chaoscoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"chaoscoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"chaoscoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"chaoscoin", "startmasternode", &startmasternode, true, true, false},
+        {"chaoscoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"chaoscoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"chaoscoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"chaoscoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"chaoscoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"chaoscoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"chaoscoin", "mnbudget", &mnbudget, true, true, false},
+        {"chaoscoin", "preparebudget", &preparebudget, true, true, false},
+        {"chaoscoin", "submitbudget", &submitbudget, true, true, false},
+        {"chaoscoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"chaoscoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"chaoscoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"chaoscoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"chaoscoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"chaoscoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"chaoscoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"chaoscoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"chaoscoin", "mnsync", &mnsync, true, true, false},
+        {"chaoscoin", "spork", &spork, true, true, false},
+        {"chaoscoin", "preparecommunityproposal", &preparecommunityproposal, true, true, false},
+        {"chaoscoin", "submitcommunityproposal", &submitcommunityproposal, true, true, false},
+        {"chaoscoin", "getcommunityinfo", &getcommunityinfo, true, true, false},
+        {"chaoscoin", "checkcommunityproposals", &checkcommunityproposals, true, true, false},
+        {"chaoscoin", "getcommunityproposalvotes", &getcommunityproposalvotes, true, true, false},
+        {"chaoscoin", "mncommunityvote", &mncommunityvote, true, true, false},
 
 #ifdef ENABLE_WALLET
 
@@ -1077,7 +1077,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> ziocoin-cli " + methodname + " " + args + "\n";
+    return "> chaoscoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)
