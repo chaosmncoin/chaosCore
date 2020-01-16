@@ -53,12 +53,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0,      uint256("0x000009dd1b3fecf2d6b099ec44c262e74543cef502911d74f651a8bb18cd8dcc"));
+    (0,      uint256("0x0000037e54f6eb0793d7517670b6cd902b416a4eaf64c5398f0d08db4d8b284e"));
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1545376118, // * UNIX timestamp of last checkpoint block
+    1578993337, // * UNIX timestamp of last checkpoint block
     0,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -93,12 +93,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x14;
-        pchMessageStart[1] = 0xde;
-        pchMessageStart[2] = 0x16;
-        pchMessageStart[3] = 0xa2;
-        vAlertPubKey = ParseHex("04d2df519f53e2eaa4a7d7ff3347a360520c2f4b8f07d0241b5b6ba5ce8e3d6ecba5443696473a387adff27aa6bb72b952ff23026e088cff9f47cbb387ed52c326");
-        nDefaultPort = 8346;
+        pchMessageStart[0] = 0xba;
+        pchMessageStart[1] = 0x8b;
+        pchMessageStart[2] = 0xef;
+        pchMessageStart[3] = 0xc9;
+        vAlertPubKey = ParseHex("0405c6022baeb2fe5522e15fb74a993b5d93e7eee896646bd310d3670523e554c57cf45cef862134574ec30aba8d370d529dfa5edc44b9cb1f3f2d1e07a47ea87f");
+        nDefaultPort = 1401;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 1050000;
         nMaxReorganizationDepth = 100;
@@ -110,7 +110,7 @@ public:
         nTargetSpacing = 2 * 60;  // Zio Coin: 2 minutes
         nMaturity = 10;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 40000000 * COIN;
+        nMaxMoneyOut = 200000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
@@ -133,36 +133,39 @@ public:
          * nonce: 21256609
          * genesis_hash: 000009dd1b3fecf2d6b099ec44c262e74543cef502911d74f651a8bb18cd8dcc
          */
-        const char* pszTimestamp = "zio coin psz";
+        const char* pszTimestamp = "chaoscoin";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04e5a8143f86ad8ac63791fbbdb8e0b91a8da88c8c693a95f6c2c13c063ea790f7960b8025a9047a7bc671d5cfe707a2dd2e13b86182e1064a0eea7bf863636363") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04ab2a80a4f9729cf513e4534f18c5272f31a86140b27353b29bdecd3798274d56413b9896a47a2def18840630f645f318ff9606c7a00c696ab6d4597a33ce72e6") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1545376118;
+        genesis.nTime = 1578993337;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 610798;
+        genesis.nNonce = 907521;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000009dd1b3fecf2d6b099ec44c262e74543cef502911d74f651a8bb18cd8dcc"));
-        assert(genesis.hashMerkleRoot == uint256("0x0d0e6beafadb7d23388171de4905f0f64298a8ddc91a337e64c85389a32c927c"));
+        assert(hashGenesisBlock == uint256("0x0000037e54f6eb0793d7517670b6cd902b416a4eaf64c5398f0d08db4d8b284e"));
+        assert(genesis.hashMerkleRoot == uint256("0x1db6321b14afcd76a1a248d933d4facb8f8632be0b9dd83fb005ad119e888a74"));
 
         // DNS Seeding
-        vSeeds.push_back(CDNSSeedData("149.28.19.118", "149.28.19.118"));
-        vSeeds.push_back(CDNSSeedData("198.13.34.47", "198.13.34.47"));
-        vSeeds.push_back(CDNSSeedData("66.42.40.80", "66.42.40.80"));
+        vSeeds.push_back(CDNSSeedData("seed1", "server1.haopool.com"));
+        vSeeds.push_back(CDNSSeedData("seed2", "server2.haopool.com"));
+        vSeeds.push_back(CDNSSeedData("seed3", "server3.haopool.com"));
+        vSeeds.push_back(CDNSSeedData("seed4", "server4.haopool.com"));
+        vSeeds.push_back(CDNSSeedData("seed5", "server5.haopool.com"));
+        vSeeds.push_back(CDNSSeedData("explorer", "server6.haopool.com"));
 
-        // Zio Coin addresses start with 'Z'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 80);
+        // Zio Coin addresses start with 'C'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         // Zio Coin script addresses start with '3'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 6);
-        // Zio Coin private keys start with 'K'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 46);
+        // Zio Coin private keys start with 'H'
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 40);
         // Zio Coin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         // Zio Coin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
@@ -183,7 +186,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04026c33ff67ad40db68e7ba4f6d858a56550a7aba460857d1cf0f34af4e7d090b255928df8135ee5343df02b88801635ef054da6ef3071ce69c2c3134acad54e9";
+        strSporkKey = "5KNdgLsKuHfBVE5psury1DcLqwvs59Eiq6EPZXKyVJz1iEbxJZW";
         strMasternodePoolDummyAddress = "ZSJVWUkt6HtSCY2SaJ2akeyJUg8bg1hW3S";
         nStartMasternodePayments = genesis.nTime + 86400; // 24 hours after genesis creation
 
@@ -211,7 +214,7 @@ public:
         pchMessageStart[1] = 0x8a;
         pchMessageStart[2] = 0xe5;
         pchMessageStart[3] = 0xa8;
-        vAlertPubKey = ParseHex("04ba89975265af1d4c6295d3587eb4a0e4b758bde1621ef2ab8f92b98e7ed1c85547c9b7a3f145a66aa2abb91db5c13295828e77d823ea6d9b4bb89912425e1efe");
+        vAlertPubKey = ParseHex("04f0bdd0de606a49a61c30b855a50b428ace2146809142f64bef6467aaa6f30f2d0ba07e882f6fda54a3f15c73eda4072738404f4d63f1e6fd7da81f5bd34ce225");
         nDefaultPort = 18346;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
