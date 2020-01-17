@@ -233,6 +233,7 @@ public:
         genesis.nNonce = 610798;
 
         hashGenesisBlock = genesis.GetHash();
+        printf("CTestNetParams block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         assert(hashGenesisBlock == uint256("0x273c5c6edb0f275dbce3ffd51d264e75343d8651761873f7c374ede3559124d7"));
 
         vFixedSeeds.clear();
@@ -303,6 +304,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 28346;
+        printf("CRegTestParams block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         assert(hashGenesisBlock == uint256("0x358c0f7fd14e8894c3ce45afa035e772a1223390554a0e06586a1690ffe0f173"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
