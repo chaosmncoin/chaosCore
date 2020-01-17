@@ -233,8 +233,7 @@ public:
         genesis.nNonce = 610798;
 
         hashGenesisBlock = genesis.GetHash();
-        printf("CTestNetParams block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x273c5c6edb0f275dbce3ffd51d264e75343d8651761873f7c374ede3559124d7"));
+        assert(hashGenesisBlock == uint256("0x78a0481406c1f830aaa7a000d9fc40135c6b3faa589bca5735e51677de390d4c"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
