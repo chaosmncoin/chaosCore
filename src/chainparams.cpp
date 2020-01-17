@@ -303,8 +303,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 28346;
-        printf("CRegTestParams block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x358c0f7fd14e8894c3ce45afa035e772a1223390554a0e06586a1690ffe0f173"));
+        assert(hashGenesisBlock == uint256("0x10ced34d973336902683dd97192d06a51c2a9ed899c52e177f4476fcd0aee7a2"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Regtest mode doesn't have any DNS seeds.
